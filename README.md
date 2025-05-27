@@ -1,4 +1,13 @@
-#Features
+
+# Netflix Gpt
+  - Create React App
+  - Configure Tailwind
+  - login form
+  - sign-up form
+
+
+
+# Features
 
 - Login/signup
    - Sign in/ signup form
