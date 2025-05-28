@@ -4,6 +4,9 @@
   - Configure Tailwind
   - login form
   - sign-up form
+  - Routing of app
+  - form validation
+  - useRef hook
 
 
 
