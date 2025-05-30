@@ -2,7 +2,7 @@ export const validateData = (email, password, name) => {
 
     
   if (name && !/^[a-zA-Z\s]*$/.test(name)) {
-    return "Enter valid name";
+    return "Enter valid name"; 
   }
 
   const isEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
@@ -16,4 +16,4 @@ export const validateData = (email, password, name) => {
   if (!isPassword) return "Password is not valid";
 
   return null;
-};
+}

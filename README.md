@@ -7,6 +7,12 @@
   - Routing of app
   - form validation
   - useRef hook
+  - firebase setup
+  - deploying our app to production
+  - created signup user account
+  - Implement signIn user API
+  - create redux store with userSlice
+  - sign out button
 
 
 
