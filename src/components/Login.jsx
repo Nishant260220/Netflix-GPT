@@ -7,7 +7,7 @@ import {
 } from "firebase/auth";
 import { auth } from "../utils/firebase";
 import { updateProfile } from "firebase/auth";
-import { useNavigate } from "react-router-dom";
+
 
 const Login = () => {
   const [isSignUp, setIsSignUp] = useState(true);
@@ -21,7 +21,7 @@ const Login = () => {
   const password = useRef(null);
   const name = useRef(null);
 
-  const navigate = useNavigate();
+ 
 
   const handleButtonClick = () => {
     const nameVal = !isSignUp ? name.current?.value : "";
@@ -52,8 +52,7 @@ const Login = () => {
             .catch((error) => {
               console.error("Profile update error:", error);
             });
-          console.log(user);
-          navigate("/browse");
+        
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -70,8 +69,7 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          console.log(user);
-          navigate("/browse");
+         
         })
         .catch((error) => {
           const errorCode = error.code;

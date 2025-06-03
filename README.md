@@ -13,7 +13,8 @@
   - Implement signIn user API
   - create redux store with userSlice
   - sign out button
-
+  - fetch from TMDB moives
+  - Bug-Fix: If the user is not logged in redirect /browse to login page or vice-versa
 
 
 # Features
