@@ -1,11 +1,27 @@
-import React from 'react'
-import Header from './Header'
+import React, { useEffect } from "react";
+import Header from "./Header";
+import { API_Constants } from "../utils/constants";
 
 const Browse = () => {
-  return (
-    <div><Header/></div>
-    
-  )
-}
+  const getNowPlayingMovies = async () => {
+    const data = await fetch(
+      "https://api.themoviedb.org/3/movie/now_playing?page=1",
+      API_Constants
+    );
+    const json = await data.json();
 
-export default Browse
+    console.log(json.results);
+  };
+
+  useEffect(() => {
+    getNowPlayingMovies();
+  }, []);
+
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+};
+
+export default Browse;

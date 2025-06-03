@@ -17,6 +17,8 @@
   - Bug-Fix: If the user is not logged in redirect /browse to login page or vice-versa
   - unSubscribed to the onAuthStateChange call
   - Add hardcoded values to the constant files
+  - Register TMDP API and create an app and get access tocken
+  - Get data from TMDB and now playing movies list API
 
 
 # Features
