@@ -15,6 +15,8 @@
   - sign out button
   - fetch from TMDB moives
   - Bug-Fix: If the user is not logged in redirect /browse to login page or vice-versa
+  - unSubscribed to the onAuthStateChange call
+  - Add hardcoded values to the constant files
 
 
 # Features
