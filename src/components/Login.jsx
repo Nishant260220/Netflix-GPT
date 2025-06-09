@@ -48,10 +48,10 @@ const Login = () => {
             displayName: name.current.value,
           })
             .then(() => {
-              console.log("Profile updated with name:", name.current.value);
+              // console.log("Profile updated with name:", name.current.value);
             })
             .catch((error) => {
-              console.error("Profile update error:", error);
+              // console.error("Profile update error:", error);
             });
         
         })

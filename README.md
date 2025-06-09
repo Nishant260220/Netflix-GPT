@@ -33,6 +33,9 @@
   - TMDB image CDN URL
   - Made the browse page look amazing
   - use popularMovies && useTopRatedMovies && useUpcomingMovies custom Hooks
+  - Gpt search page
+  - Gpt search bar
+  - Add multi langage feature 
 
 # Features
 
